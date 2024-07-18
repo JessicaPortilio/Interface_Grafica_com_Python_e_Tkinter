@@ -4,3 +4,28 @@
 
 # Para recursos de processamento de imagem
 # pip install pillow
+
+# pip install openpyxl
+
+# pip install pyinstaller
+# pyinstaller --onefile --noconsole  criando_um_arquivo_executavel.py
+# pyinstaller --onefile -w  criando_um_arquivo_executavel.py
+
+
+"""
+pyinstaller:
+
+Este é o comando para invocar a ferramenta PyInstaller. PyInstaller é uma ferramenta que empacota programas Python em executáveis independentes, possibilitando a distribuição do programa sem que o usuário precise ter o Python instalado.
+
+--onefile:
+
+Esta opção faz com que PyInstaller empacote tudo em um único arquivo executável. Sem essa opção, PyInstaller criaria uma pasta com todos os arquivos necessários para o programa, incluindo o executável. A opção --onefile garante que tudo seja empacotado em um único arquivo, o que é mais conveniente para distribuição.
+
+--noconsole:
+
+Esta opção indica que o executável deve ser criado sem uma janela de console. Isso é útil para programas com interface gráfica, pois impede que uma janela de terminal/console seja aberta junto com a aplicação. Para scripts que rodam em modo console ou terminal, essa opção não deve ser usada.
+
+criando_um_arquivo_executavel.py:
+
+Este é o nome do arquivo script Python que você deseja converter em um executável. PyInstaller usará este script como entrada para criar o executável.
+"""
